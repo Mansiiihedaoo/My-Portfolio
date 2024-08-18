@@ -22,7 +22,10 @@
                 <div class="nav-items">
                     <div> <a href="#projects"> Projects</a></div>
                     <div> <a href="#skills"> Skills</a></div>
-                    <div> <a href="#contact"> Contact Me</a></div>
+                    <div> 
+                        <a href="https://rb.gy/u1gfxn" target="_blank">Resume</a>
+                    </div>
+                     
                 </div>
 
             </div>
@@ -34,8 +37,11 @@
                     <div class="hero-Heading"> Hi! Myself Mansi Hedaoo </div>
                     <div class="hero-Heading hero-sub-Heading">
                         I am a <span class="role"></span>  </div>
-                    <div class="hero-Description"> A Java developer versed in Data Structures and Algorithms. Specializing in the MERN stack, I create modern, responsive web applications. Explore my portfolio to see how I blend Java expertise with MERN technologies for innovative solutions! </div>
-                    <div class="btn" id="btn">Hire Me</div>
+                    <div class="hero-Description"> A Java developer versed in Data Structures and Algorithms. I have strong problem-solving skills and proficiency in Java, SQL, HTML, CSS, and Tailwind with strong grasp of OOP concepts and low-level design, combined with my experience in developing modern web applications using the MERN stack! </div>
+                    
+                    <a href="https://rb.gy/u1gfxn" target="_blank">
+                        <div class="btn" id="btn">Hire Me</div>
+                    </a>
                 </div>
     
                 <div class="hero-section-right"> <!--!HERO RIGHT IMAGES-->
@@ -74,25 +80,20 @@
                                 <img class="project-skill" src="img/HTML.png" alt="" />
                                 <img class="project-skill" src="img/CSS.png" alt="" />
                                 <img class="project-skill" src="img/Javascript.svg" alt="" />
-                                <!--<img class="project-skill" src="img/Express.png" alt="" />
-                                <img class="project-skill" src="img/NextJsCircle.png" alt="" />
-                                <img class="project-skill" src="img/Tailwind.png" alt="" />
-                                <img class="project-skill" src="img/NodeJs.svg" alt="" />
-                                <img class="project-skill" src="img/MongoDB.svg" alt="" />
-                                <img class="project-skill" src="img/Redux.svg" alt="" />
-                                <img class="project-skill" src="img/Vercel.svg" alt="" />-->
+                                
                             </div>
 
                             <h2 class="project-heading">Razorpay Clone</h2>
 
                             <p class="project-subHeading">Razorpay is an India-based, fintech company that provides
-                            payment gateway services to vendors, merchants and ecommerce platforms.It is an online 
-                            system that is designed to handle end-to-end payments that can also be integrated with
-                            different websites and apps.
+                            payment gateway services to vendors, merchants and ecommerce platforms.
                             </p>
                             <div class="btn-grp">
-                                <button class="btn btn-project">Read More</button>
-                                <a href="https://github.com/Mansiiihedaoo/razorpay-clone">
+                                <a href="https://razorpay-copy.netlify.app/" target="_blank">
+                                    <button class="btn btn-project">Read More</button>
+                                </a>
+                                
+                                <a href="https://github.com/Mansiiihedaoo/razorpay-clone" target="_blank">
                                 <i title="GitHubLink" class="fa-brands fa-github icon"></i>
                                 </a>
                                 <a href="https://razorpay-copy.netlify.app/">
@@ -124,7 +125,11 @@
                         and files in private chats or as part of communities called "servers".
                         </p>
                         <div class="btn-group">
-                        <button class="btn btn-project">Read More</button>
+                        
+                        <a href="https://mansi-discordclone.netlify.app/" target="_blank">
+                            <button class="btn btn-project">Read More</button>
+                        </a>   
+                        
                         <a href="https://github.com/Mansiiihedaoo/Discord-clone">
                             <i title="GitHubLink" class="fa-brands fa-github icon"></i>
                         </a>
@@ -152,7 +157,11 @@
                         A Website for interior designer to showcase her works and samples.
                         </p>
                         <div class="btn-group">
-                        <button class="btn btn-project">Read More</button>
+
+                            <a href="https://mansiiihedaoo.github.io/Modern-chair/" target="_blank">
+                                <button class="btn btn-project">Read More</button>
+                            </a>
+                        
                         <a href="https://github.com/Mansiiihedaoo/Modern-chair">
                             <i title="GitHubLink" class="fa-brands fa-github icon"></i>
                         </a>
@@ -179,12 +188,15 @@
                         <h2 class="project-heading">Parallax Website</h2>
                         <p class="project-sub-heading">
                         Parallax scrolling is a computer graphics technique used by web designers to 
-                        create a faux-3D effect. As users scroll down a webpage, different layers of 
-                        content or backgrounds move at different speeds, and this creates an optical illusion. 
+                        create a faux-3D effect.
             
                         </p>
                         <div class="btn-group">
-                        <button class="btn btn-project">Read More</button>
+
+                            <a href="https://mansiiihedaoo.github.io/parallax-website/">
+                                <button class="btn btn-project">Read More</button>
+                            </a>
+                        
                         <a href="https://github.com/Mansiiihedaoo/parallax-website">
                             <i title="GitHubLink" class="fa-brands fa-github icon"></i>
                         </a>
@@ -252,31 +264,45 @@
                     <h3 class="ContactUs-subheading"> Questions , Thoughts, Or Just Want to Say Hello? </h3>
 
                     <div class="contactUs-formcontainer">
-                        <form  class="form">
+                        <form class="form" onsubmit="sendMail(); return false;">
                             <div class="formfields-container">
-
+                    
                                 <input class="formfield"
                                 type="text" name="name"
-                                id="" placeholder="Enter your name"/>
-
+                                id="name" placeholder="Enter your name"/>
+                    
                                 <input class="formfield"
                                 type="email" name="email"
-                                id="" placeholder="Enter your email address"/>
-
+                                id="email" placeholder="Enter your email address"/>
+                    
                                 <input class="formfield"
                                 type="text" name="subject"
-                                id="" placeholder="Enter your subject"/>
-
+                                id="subject" placeholder="Enter your subject"/>
+                    
                                 <textarea class="formfield formfield-textarea"
                                 cols="30" rows="10"
-                                name="message" id="" 
-                                placeholder="Enter your message"> </textarea>     
+                                name="message" id="message" 
+                                placeholder="Enter your message"></textarea>     
                             </div>
-
+                    
                             <button type="submit" class="btn" id="submit-btn">
-                            Send Message <i class="submit-icon fa-solid fa-paper-plane"></i>
+                                Send Message <i class="submit-icon fa-solid fa-paper-plane"></i>
                             </button>
                         </form>
+                    
+                        <script>
+                            function sendMail() {
+                                var name = document.getElementById('name').value;
+                                var email = document.getElementById('email').value;
+                                var subject = document.getElementById('subject').value;
+                                var message = document.getElementById('message').value;
+                    
+                                var mailtoLink = `mailto:mansihedaoo247@gmail.com?subject=${encodeURIComponent(subject)}&body=Name: ${encodeURIComponent(name)}%0AEmail: ${encodeURIComponent(email)}%0A%0A${encodeURIComponent(message)}`;
+                    
+                                window.location.href = mailtoLink;
+                            }
+                        </script>
+                    
                     </div>
                 </div>
            
@@ -295,7 +321,7 @@
                                 <a href="#skills">Skills</a>
                             </div>
                             <div>
-                                <a href="#contact">Contact Me</a>
+                                <a href="https://rb.gy/u1gfxn" target="_blank">Resume</a>
                             </div>
                         </div>
         
@@ -320,7 +346,7 @@
     <script>
       var typeData = new Typed(".role", {
         strings: [
-          "Full Stack Developer",
+          "Java Developer",
           "Web Developer",
           "Backend Developer",
           "Coder",
