@@ -171,6 +171,7 @@ a{
     animation:scaleimage 4s linear infinite;
    
 }
+
 .user-image img{
    z-index: -9;
 }
